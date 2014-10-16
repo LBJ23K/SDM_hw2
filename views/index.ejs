@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html ng-app="myApp">
+	<head>
+		<title>軟開</title>
+		<base href="/">
+   	 	<meta charset="utf-8" />
+
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="javascripts/lib/jquery.min.js"></script>
+		<script src="javascripts/lib/jquery.scrolly.min.js"></script>
+		<script src="javascripts/lib/jquery.scrollzer.min.js"></script>
+		<script src="javascripts/lib/skel.min.js"></script>
+		<script src="javascripts/lib/skel-layers.min.js"></script>
+		<script src="javascripts/lib/init.js"></script>
+
+		<script src="components/angular/angular.min.js"></script>
+		<script scr="components/angular-route/angular-route.min.js"></script>
+		<script src="components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="components/moment/min/moment.min.js"></script>
+		<script src="components/ngAnimate/js/angular-animate.min.js"></script>
+		<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="javascripts/controller/app.js"></script>
+		<script src="javascripts/controller/indexCtrl.js"></script>
+		<script src="javascripts/controller/newsFeedCtrl.js"></script>
+		<script src="javascripts/controller/module/index_module.js"></script>
+		<link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="components/ngAnimate/css/ng-animation.css">
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+
+	<body >
+
+		<!-- Header -->
+
+			<div id="header" class="skel-layers-fixed" >
+
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">LBJ23K</h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+
+							<ul>
+								<li><a href="/" id="top-link" class="skel-layers-ignoreHref active" active><span class="icon fa-home">Home</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref" active><span class="icon fa-user">Friends</span></a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+				
+				</div>
+			
+			</div>
+
+		<!-- Main -->
+			<div id="main" >
+
+				<!-- Intro -->
+					<div  ui-view>
+          			</div>
+					
+				
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				
+			</div>
+
+	</body>
+</html>

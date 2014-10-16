@@ -1,0 +1,23 @@
+{
+  "name": "SDM_hw2",
+  "version": "0.0.0",
+  "authors": [
+    "LBJ23K <lbj23k1@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.2.26",
+    "angular-ui-router": "~0.2.11",
+    "angular-route": "~1.2.26",
+    "moment": "~2.8.3",
+    "ngAnimate": "*"
+  }
+}
